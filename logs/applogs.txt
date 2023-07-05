@@ -1,0 +1,1969 @@
+2023-07-05T13:26:07,893 [main] INFO  (AllureReportGeneration.java:43) - e2eAPIRequest test execution started...
+2023-07-05T13:26:11,820 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 1996,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T13:26:13,143 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1996
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+null
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T13:26:14,149 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "3872d1273f844f7"
+}
+2023-07-05T13:26:15,161 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1996
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T13:26:17,028 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1996
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T13:26:18,046 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1996
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+null
+ Response :  
+Created
+2023-07-05T13:26:18,047 [main] INFO  (AllureReportGeneration.java:154) - e2eAPIRequest test execution ended...
+2023-07-05T13:26:18,067 [main] INFO  (AllureReportGeneration.java:164) - e2eAPIRequest test execution started...
+2023-07-05T13:26:19,073 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 2043,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T13:26:20,164 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2043
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+null
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T13:26:20,165 [main] INFO  (AllureReportGeneration.java:214) - e2eAPIRequest test execution ended...
+2023-07-05T13:42:54,648 [main] INFO  (End2EndTestAllureReport.java:39) - e2eAPIRequest test execution started...
+2023-07-05T13:43:26,186 [main] INFO  (End2EndTestAllureReport.java:39) - e2eAPIRequest test execution started...
+2023-07-05T13:43:29,943 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "890c3da735dbcfb"
+}
+2023-07-05T13:43:31,044 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 526,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T13:43:32,221 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "c0ba1adf0586275"
+}
+2023-07-05T13:43:33,302 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/526
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T13:43:34,403 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "8b46e2bb0a03ea5"
+}
+2023-07-05T13:43:35,451 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/526
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T13:43:36,473 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "ffea61d45f034bd"
+}
+2023-07-05T13:43:37,616 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/526
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T13:43:38,856 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "90b8847478e75b6"
+}
+2023-07-05T13:43:39,859 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/526
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Created
+2023-07-05T13:49:43,551 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "api testing by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 3683,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:49:44,795 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "rest assured by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 3701,
+    "booking": {
+        "firstname": "rest assured by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:49:45,915 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "postman by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 3716,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:57:30,250 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "api testing by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 2604,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:57:31,441 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "rest assured by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 2615,
+    "booking": {
+        "firstname": "rest assured by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:57:32,569 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "postman by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 2623,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:59:22,034 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "api testing by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 3549,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:59:23,295 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "rest assured by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 3560,
+    "booking": {
+        "firstname": "rest assured by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T13:59:24,487 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+  "firstname" : "postman by",
+  "lastname" : "testers talk",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response :  
+{
+    "bookingid": 3571,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "testers talk",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-07-05T14:00:37,483 [main] INFO  (End2EndTestAllureReportTest.java:37) - e2eAPIRequest test execution started...
+2023-07-05T14:01:12,109 [main] INFO  (End2EndTestAllureReportTest.java:36) - e2eAPIRequest test execution started...
+2023-07-05T14:01:15,901 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "d0ca8a9a4209cb6"
+}
+2023-07-05T14:01:17,088 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 4554,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:01:18,409 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "b8021ecc8eb4e6b"
+}
+2023-07-05T14:01:19,664 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/4554
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:01:20,898 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "85e673db3e21a9e"
+}
+2023-07-05T14:01:21,942 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/4554
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:01:23,055 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "b87562badbe2afd"
+}
+2023-07-05T14:01:24,167 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/4554
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:01:25,217 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "baf62955f60500d"
+}
+2023-07-05T14:01:26,281 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/4554
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Created
+2023-07-05T14:04:42,499 [main] INFO  (End2EndTestAllureReportTest.java:36) - e2eAPIRequest test execution started...
+2023-07-05T14:04:46,568 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "52c066902e685fd"
+}
+2023-07-05T14:04:47,907 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 983,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:04:49,030 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "f60e7b37d4b5e7c"
+}
+2023-07-05T14:04:50,112 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/983
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:04:51,251 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "241a358f7782a41"
+}
+2023-07-05T14:04:52,319 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/983
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:04:53,326 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "4d4b94f49528f0b"
+}
+2023-07-05T14:04:54,423 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/983
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:04:55,480 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "3ebdeeb7c306054"
+}
+2023-07-05T14:04:56,577 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/983
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Created
+2023-07-05T14:15:46,248 [main] INFO  (End2EndTestAllureReportTest.java:36) - e2eAPIRequest test execution started...
+2023-07-05T14:15:50,373 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "56a6357dd426141"
+}
+2023-07-05T14:15:51,521 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 1863,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:15:52,794 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "cfe3d423cec80f6"
+}
+2023-07-05T14:15:53,907 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1863
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:15:54,914 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "39e932add484d54"
+}
+2023-07-05T14:15:55,966 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1863
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:15:57,164 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "4b26d5414645a46"
+}
+2023-07-05T14:15:58,428 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1863
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:15:59,619 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "bb82d5afb5f57ae"
+}
+2023-07-05T14:16:00,679 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/1863
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Created
+2023-07-05T14:17:21,301 [main] INFO  (End2EndTestAllureReportTest.java:36) - e2eAPIRequest test execution started...
+2023-07-05T14:17:24,992 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "1897d5a031b852f"
+}
+2023-07-05T14:17:26,216 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 2622,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:17:27,384 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "4028d2acc35a822"
+}
+2023-07-05T14:17:28,639 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2622
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:17:29,670 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "b162cea28672370"
+}
+2023-07-05T14:17:30,929 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2622
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:17:32,134 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "e0465200c849dfc"
+}
+2023-07-05T14:17:33,237 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2622
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:17:34,452 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "f7a9a1736378a14"
+}
+2023-07-05T14:17:35,604 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2622
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Created
+2023-07-05T14:18:07,718 [main] INFO  (AllureReportGeneration.java:43) - e2eAPIRequest test execution started...
+2023-07-05T14:18:11,331 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 3028,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:18:12,846 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3028
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+null
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:18:13,923 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "fdf2178ca0c69e4"
+}
+2023-07-05T14:18:15,092 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3028
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:18:16,994 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3028
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:18:18,156 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3028
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+null
+ Response :  
+Created
+2023-07-05T14:18:18,157 [main] INFO  (AllureReportGeneration.java:154) - e2eAPIRequest test execution ended...
+2023-07-05T14:18:18,179 [main] INFO  (AllureReportGeneration.java:164) - e2eAPIRequest test execution started...
+2023-07-05T14:18:19,313 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 3071,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:18:20,516 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3071
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+null
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:18:20,517 [main] INFO  (AllureReportGeneration.java:214) - e2eAPIRequest test execution ended...
+2023-07-05T14:46:45,262 [main] INFO  (End2EndTestAllureReportTest.java:36) - e2eAPIRequest test execution started...
+2023-07-05T14:46:49,173 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "fb8c0206de95f5a"
+}
+2023-07-05T14:46:50,349 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 2254,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:46:51,578 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "23e3c49825ed102"
+}
+2023-07-05T14:46:52,781 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2254
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:46:53,881 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "5cce86b72811c46"
+}
+2023-07-05T14:46:54,955 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2254
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:46:56,007 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "5560cbe966385fc"
+}
+2023-07-05T14:46:57,108 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2254
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T14:46:58,165 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "b931a45c4c8de68"
+}
+2023-07-05T14:46:59,216 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/2254
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Created
+2023-07-05T14:54:09,977 [main] INFO  (End2EndTestAllureReportTest.java:34) - e2eAPIRequest test execution started...
+2023-07-05T14:54:13,924 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "589bc03a68c4a53"
+}
+2023-07-05T14:54:15,187 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 1012,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:54:16,505 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "84361e611bd5ed5"
+}
+2023-07-05T14:54:17,525 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/0
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Not Found
+2023-07-05T14:54:17,538 [main] INFO  (BaseTest.java:29) - com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Not': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"Not Found"; line: 1, column: 4]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2418)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:759)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:3038)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:3016)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._matchToken(ReaderBasedJsonParser.java:2790)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2056)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:805)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4817)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4723)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3677)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3645)
+	at com.testautomation.apitesting.utils.RestAPIHelper.getResponse(RestAPIHelper.java:87)
+	at com.testautomation.apitesting.utils.RestAPIHelper.sendRequest(RestAPIHelper.java:59)
+	at com.testautomation.apitesting.tests.End2EndTestAllureReportTest.getRequestTest(End2EndTestAllureReportTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+2023-07-05T14:59:52,556 [main] INFO  (End2EndTestAllureReportTest.java:34) - e2eAPIRequest test execution started...
+2023-07-05T14:59:56,456 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "a7604f18b0a93a2"
+}
+2023-07-05T14:59:57,785 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "bookingid": 3963,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2023-07-05T14:59:59,247 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "057d121518801be"
+}
+2023-07-05T15:00:00,456 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3963
+         Method : GET
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T15:00:01,478 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "fa6dc274f1e335b"
+}
+2023-07-05T15:00:02,531 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3963
+         Method : PUT
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response :  
+{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T15:00:03,826 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "0fce5e18657f542"
+}
+2023-07-05T15:00:04,899 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3963
+         Method : PATCH
+------------------------------------------------------------------------------------
+Request :   
+{
+    "firstname": "Testers Talk"
+}
+ Response :  
+{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2023-07-05T15:00:06,102 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/auth
+         Method : POST
+------------------------------------------------------------------------------------
+Request :   
+{
+    "username":"admin",
+    "password":"password123"
+
+}
+ Response :  
+{
+    "token": "87d66daf40bfce9"
+}
+2023-07-05T15:00:07,226 [main] INFO  (RestAssuredListener.java:23) - ------------------------------------------------------------------------------------
+         URI    : https://restful-booker.herokuapp.com/booking/3963
+         Method : DELETE
+------------------------------------------------------------------------------------
+Request :   
+
+ Response :  
+Created

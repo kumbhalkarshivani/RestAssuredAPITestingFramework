@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T13:59:18 IST" name="Data Driven Testing Using Json" finished-at="2023-07-05T13:59:24 IST" duration-ms="6404">
+    <groups>
+    </groups>
+    <test started-at="2023-07-05T13:59:18 IST" name="Test" finished-at="2023-07-05T13:59:24 IST" duration-ms="6404">
+      <class name="com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile">
+        <test-method signature="DataDrivenTestingUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile@56846330]" started-at="2023-07-05T13:59:18 IST" name="DataDrivenTestingUsingJson" data-provider="getTestData" finished-at="2023-07-05T13:59:22 IST" duration-ms="3780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=api testing by, lastname=testers talk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTestingUsingJson -->
+        <test-method signature="DataDrivenTestingUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile@56846330]" started-at="2023-07-05T13:59:22 IST" name="DataDrivenTestingUsingJson" data-provider="getTestData" finished-at="2023-07-05T13:59:23 IST" duration-ms="1117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=rest assured by, lastname=testers talk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTestingUsingJson -->
+        <test-method signature="DataDrivenTestingUsingJson(java.util.LinkedHashMap)[pri:0, instance:com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile@56846330]" started-at="2023-07-05T13:59:23 IST" name="DataDrivenTestingUsingJson" data-provider="getTestData" finished-at="2023-07-05T13:59:24 IST" duration-ms="1190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=postman by, lastname=testers talk}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDrivenTestingUsingJson -->
+      </class> <!-- com.testautomation.apitesting.tests.DataDrivenTestingUsingJsonFile -->
+    </test> <!-- Test -->
+  </suite> <!-- Data Driven Testing Using Json -->
+</testng-results>
