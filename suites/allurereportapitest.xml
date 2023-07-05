@@ -3,7 +3,7 @@
 <suite name="End to End API Testing">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testautomation.apitesting.tests.AllureReportGeneration"/>
+      <class name="com.testautomation.apitesting.tests.End2EndTestAllureReportTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- End to End API Testing -->
